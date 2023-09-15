@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-voev
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-gfae-tenant/mc-quality-dashboard/backend-quality-dashboard-voev@sha256:118dc17dceeda0f6722060dd39d20b1e1407299ca2589f52726559145813e13f
+        name: container-image
+        resources: {}
+status: {}

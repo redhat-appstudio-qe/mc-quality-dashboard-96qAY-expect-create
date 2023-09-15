@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-voev
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-gfae-tenant/mc-quality-dashboard/backend-quality-dashboard-voev@sha256:118dc17dceeda0f6722060dd39d20b1e1407299ca2589f52726559145813e13f
         imagePullPolicy: Always
         name: container-image
         ports:
